@@ -22,7 +22,7 @@ new Vue({
   el: '#app',
   router,
   render: (h) => h(App)
-}
+})
 
 // 引入自己封装的跨域请求代码，不需要请注释掉
 // function Jsonp(url,h){this.data='';var s=document.createElement("script");s.src=url;document.head.appendChild(s);callback=function(d,f){this.data=d;h(this.data)}}
